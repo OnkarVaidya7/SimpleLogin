@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registration.css">
+    <title>REGISTRATION</title>
+</head>
+<body>
+    <div class="container">
+        <div class="reg-form">
+            <h2 class="heading">SIGN IN</h2>
+            <div class="create-acc" align="center">
+                <form autocomplete="off">
+                    <input type="text" placeholder="USERNAME*" class="fld" id="un" required>
+                    <input type="text" placeholder="PASSWORD*" class="fld" id="pwd1" required>
+                    <input type="text" placeholder="CONFIRM PASSWORD*" class="fld" id="pwd2" required>
+                    <input type="email" placeholder="EMAIL*" class="fld" id="eml" required>
+                    <input type="text" placeholder="CONTACT*" class="fld" id="phno" required>
+
+                    <input type="button" value="CREATE" class="btn" onclick="registration()">
+
+                    <input type="reset" value="CANCEL" class="btn" >
+
+                </form>
+            </div>
+        </div>
+        <div class="sticker">
+            <img src="https://media4.giphy.com/media/y8PjP6z8evEca7TzNc/giphy.gif">
+        </div>
+    </div>
+
+    <script src="regScript.js"></script>
+</body>
+</html>

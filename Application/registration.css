@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-image: url("https://natopublicforum2023.lt/_next/static/media/main.7cafd704.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.reg-form{
+    height: 450px;
+    width: 400px;
+    background: transparent;
+    backdrop-filter: blur(80px);
+    border-radius: 50px;
+    box-shadow: 0x 0px 20px white;
+    padding: 30px;
+    margin-left: 800px;
+}
+
+.heading{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-family: arial black;
+}
+
+.create-acc{
+    margin-top: 30px;
+}
+
+.fld{
+    width: 80%;
+    margin-top: 13px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 3px solid white;
+    color: white;
+    padding-left: 20px;
+
+}
+
+.btn{
+    width: 40%;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-radius: 10px;
+    height: 40px;
+    border: 3px solid white;
+    margin-left: 10px;
+    cursor: pointer;
+    color: white;
+}
+.sticker{
+    position: absolute;
+    left: 200px;
+}
